@@ -12,6 +12,13 @@ const LandingPage = () => {
         <Link to="/login" className="bg-blue-500 text-white px-4 py-2 rounded">
           Get Started
         </Link>
+        <Link
+          to="/login"
+          className="bg-blue-500 text-white px-4 py-2 p-2 rounded"
+        >
+          {/* in css what do we call padding */}
+          Login
+        </Link>
       </header>
       <section className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-white p-6 rounded shadow">
